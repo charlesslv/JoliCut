@@ -20,6 +20,9 @@
             <string>Comfortaa-Bold</string>
             <string>Comfortaa-Bold</string>
             <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -202,41 +205,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qvV-9c-Eye">
-                                <rect key="frame" x="20" y="491" width="335" height="50"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RDZ-aU-pyD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPB-Mf-4sd">
+                                <rect key="frame" x="20" y="494" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.91764705879999997" green="0.68235294120000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="4Re-8p-jf8"/>
+                                    <constraint firstAttribute="height" constant="50" id="8b6-GO-2h3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="19"/>
                                 <state key="normal" title="Creer un compte">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uf3-GI-knf" kind="show" id="3Xn-BI-ZiT"/>
+                                    <segue destination="uf3-GI-knf" kind="show" id="vUW-lF-pcc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrR-Kc-dqT">
-                                <rect key="frame" x="20" y="566" width="335" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUS-8T-wvs">
+                                <rect key="frame" x="20" y="569" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.16862745100000001" green="0.16078431369999999" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="19"/>
                                 <state key="normal" title="Se connecter">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3A7-EV-UYn" kind="show" id="qBV-Ww-Nzz"/>
+                                    <segue destination="3A7-EV-UYn" kind="show" id="ZJs-Lc-Q6x"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="WFq-sO-nGB" firstAttribute="top" secondItem="DrR-Kc-dqT" secondAttribute="bottom" constant="51" id="CUs-RA-xB7"/>
-                            <constraint firstItem="qvV-9c-Eye" firstAttribute="trailing" secondItem="DrR-Kc-dqT" secondAttribute="trailing" id="J6m-2R-rps"/>
-                            <constraint firstItem="qvV-9c-Eye" firstAttribute="leading" secondItem="y3G-BC-DH6" secondAttribute="leadingMargin" constant="4" id="LkC-1g-3TR"/>
-                            <constraint firstItem="qvV-9c-Eye" firstAttribute="top" secondItem="vor-Ts-tH2" secondAttribute="bottom" constant="471" id="WSP-8R-m1F"/>
-                            <constraint firstItem="qvV-9c-Eye" firstAttribute="leading" secondItem="DrR-Kc-dqT" secondAttribute="leading" id="c37-1b-evw"/>
-                            <constraint firstItem="DrR-Kc-dqT" firstAttribute="top" secondItem="qvV-9c-Eye" secondAttribute="bottom" constant="25" id="f6y-gU-E35"/>
-                            <constraint firstItem="qvV-9c-Eye" firstAttribute="centerX" secondItem="y3G-BC-DH6" secondAttribute="centerX" id="iLW-9b-YyT"/>
+                            <constraint firstItem="VPB-Mf-4sd" firstAttribute="centerX" secondItem="y3G-BC-DH6" secondAttribute="centerX" id="29q-ja-3vL"/>
+                            <constraint firstItem="RDZ-aU-pyD" firstAttribute="leading" secondItem="y3G-BC-DH6" secondAttribute="leading" id="8aX-EM-6NV"/>
+                            <constraint firstItem="RDZ-aU-pyD" firstAttribute="top" secondItem="y3G-BC-DH6" secondAttribute="top" id="A5n-st-EhF"/>
+                            <constraint firstItem="VPB-Mf-4sd" firstAttribute="leading" secondItem="uUS-8T-wvs" secondAttribute="leading" id="ASl-m2-PM8"/>
+                            <constraint firstItem="uUS-8T-wvs" firstAttribute="centerX" secondItem="RDZ-aU-pyD" secondAttribute="centerX" id="Jz4-eY-UqX"/>
+                            <constraint firstItem="VPB-Mf-4sd" firstAttribute="centerX" secondItem="RDZ-aU-pyD" secondAttribute="centerX" id="QAP-Ex-CYM"/>
+                            <constraint firstItem="VPB-Mf-4sd" firstAttribute="leading" secondItem="y3G-BC-DH6" secondAttribute="leadingMargin" constant="4" id="g3a-ej-Nfv"/>
+                            <constraint firstItem="WFq-sO-nGB" firstAttribute="top" secondItem="uUS-8T-wvs" secondAttribute="bottom" constant="48" id="hrq-sE-MW4"/>
+                            <constraint firstItem="VPB-Mf-4sd" firstAttribute="trailing" secondItem="uUS-8T-wvs" secondAttribute="trailing" id="iCK-Ll-Ik1"/>
+                            <constraint firstItem="uUS-8T-wvs" firstAttribute="top" secondItem="VPB-Mf-4sd" secondAttribute="bottom" constant="25" id="qzZ-WA-dZf"/>
+                            <constraint firstItem="VPB-Mf-4sd" firstAttribute="top" secondItem="vor-Ts-tH2" secondAttribute="bottom" constant="474" id="roa-Pg-dHC"/>
+                            <constraint firstItem="RDZ-aU-pyD" firstAttribute="bottom" secondItem="WFq-sO-nGB" secondAttribute="top" id="wpZ-nU-MWf"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="glg-gJ-8M7"/>
@@ -357,9 +368,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0l2-Uw-wC0">
                                         <rect key="frame" x="47" y="13" width="19" height="19"/>
                                         <state key="normal" backgroundImage="cross.png"/>
+                                        <connections>
+                                            <segue destination="1Gh-nR-UdD" kind="show" id="tQR-A1-bu6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9A-hT-Pn5">
-                                        <rect key="frame" x="82" y="553" width="300" height="30"/>
+                                        <rect key="frame" x="82" y="605" width="300" height="30"/>
                                         <color key="backgroundColor" red="0.91764705879999997" green="0.68235294120000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
                                         <state key="normal" title="S'inscrire">
@@ -391,9 +405,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XU3-LV-jsr">
-                                <rect key="frame" x="103" y="389" width="169" height="28"/>
+                                <rect key="frame" x="103" y="383" width="169" height="31"/>
                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
                                 <state key="normal" title="Connexion">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -403,17 +417,12 @@
                                     <segue destination="49e-Tb-3d3" kind="show" identifier="segueTest" id="ZP3-YE-phu"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EiG-8w-Fth">
-                                <rect key="frame" x="103" y="319" width="169" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LOGIN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwA-4w-Dcn">
-                                <rect key="frame" x="103" y="259" width="169" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="LOGIN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwA-4w-Dcn">
+                                <rect key="frame" x="103" y="277" width="169" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="169" id="P4y-Mb-zdj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g8E-Ar-FBP">
@@ -422,6 +431,11 @@
                                     <barButtonItem title="Retour" id="ho7-iP-Wyo"/>
                                 </items>
                             </toolbar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EiG-8w-Fth">
+                                <rect key="frame" x="103" y="325" width="169" height="18"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
