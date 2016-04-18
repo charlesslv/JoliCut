@@ -22,6 +22,7 @@
 		A31FEE591CC1594D00FE0583 /* Circled-inscr.png in Resources */ = {isa = PBXBuildFile; fileRef = A31FEE511CC1594D00FE0583 /* Circled-inscr.png */; };
 		A31FEE6E1CC271C400FE0583 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A31FEE6D1CC271C400FE0583 /* delete.png */; };
 		A31FEE701CC271C900FE0583 /* cross2.png in Resources */ = {isa = PBXBuildFile; fileRef = A31FEE6F1CC271C900FE0583 /* cross2.png */; };
+		A31FEE721CC3C9B000FE0583 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = A31FEE711CC3C9B000FE0583 /* back.png */; };
 		A34301981CBE9EF300A18E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34301971CBE9EF300A18E8F /* AppDelegate.swift */; };
 		A343019A1CBE9EF300A18E8F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34301991CBE9EF300A18E8F /* FirstViewController.swift */; };
 		A343019C1CBE9EF300A18E8F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A343019B1CBE9EF300A18E8F /* SecondViewController.swift */; };
@@ -66,6 +67,7 @@
 		A31FEE511CC1594D00FE0583 /* Circled-inscr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circled-inscr.png"; sourceTree = "<group>"; };
 		A31FEE6D1CC271C400FE0583 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 		A31FEE6F1CC271C900FE0583 /* cross2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross2.png; sourceTree = "<group>"; };
+		A31FEE711CC3C9B000FE0583 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		A32923C11CC1181B006544B9 /* HELN.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HELN.TTF; sourceTree = "<group>"; };
 		A34301941CBE9EF300A18E8F /* JoliCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoliCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34301971CBE9EF300A18E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		A32923C51CC12150006544B9 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				A31FEE711CC3C9B000FE0583 /* back.png */,
 				A31FEE6F1CC271C900FE0583 /* cross2.png */,
 				A31FEE6D1CC271C400FE0583 /* delete.png */,
 				17A193981CC1656A00FDF634 /* ios camp.jpg */,
@@ -300,6 +303,7 @@
 			files = (
 				A31FEE6E1CC271C400FE0583 /* delete.png in Resources */,
 				17A1939A1CC1669100FDF634 /* Comfortaa-Bold.ttf in Resources */,
+				A31FEE721CC3C9B000FE0583 /* back.png in Resources */,
 				17A1939B1CC1669100FDF634 /* Comfortaa-Light.ttf in Resources */,
 				17A1939C1CC1669100FDF634 /* Comfortaa-Regular.ttf in Resources */,
 				A31FEE561CC1594D00FE0583 /* social.png in Resources */,
