@@ -30,16 +30,18 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
         locationManager.startUpdatingLocation()
         
         /* geolocalisation Charles, a faire; $_SESSION et recuperer la position de l'utilisateur... 'soupir'*/
-        //let location = self.locationManager.location
-        
-        //var latitude: Double = location!.coordinate.latitude
-        //let longitude: Double = location!.coordinate.longitude
+        let location = self.locationManager.location
+        print(location?.coordinate)
+        if (location != nil)
+        {
+            var latitude: Double = location!.coordinate.latitude
+            let longitude: Double = location!.coordinate.longitude
+        }
     }
     
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
-        
     }
     
     func locationManager(manager: CLLocationManager, didUpdateToLocations locations: [AnyObject])
