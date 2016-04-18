@@ -1,23 +1,22 @@
 //
-//  SecondViewController.swift
-//  Jolycut
+//  InscriptionViewController.swift
+//  JoliCut
 //
-//  Created by Vinod AROUMOUGAME on 13/04/16.
+//  Created by Quentin LE GAL on 17/04/16.
 //  Copyright © 2016 Vinod AROUMOUGAME. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-
+class InscriptionViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 }
-
