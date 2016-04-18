@@ -31,7 +31,6 @@
             <string>Comfortaa-Bold</string>
             <string>Comfortaa-Bold</string>
             <string>Comfortaa-Bold</string>
-            <string>Comfortaa-Bold</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -44,13 +43,13 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MpR-eX-7xq">
-                                <rect key="frame" x="0.0" y="22" width="375" height="596"/>
+                                <rect key="frame" x="0.0" y="22" width="375" height="645"/>
                             </mapView>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8SX-K9-f4q">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8SX-K9-f4q">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="iZc-xJ-pJ9"/>
@@ -72,6 +71,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Map" id="acW-dT-cKf">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="MapView" destination="MpR-eX-7xq" id="Ukn-bk-XTa"/>
                     </connections>
@@ -127,10 +127,10 @@
                         <viewControllerLayoutGuide type="bottom" id="Ttv-nu-ihj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hQz-ZS-O2x">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gVG-8s-SNt">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVG-8s-SNt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="n0Q-KX-xp3"/>
@@ -217,6 +217,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Profil" id="dMD-Ne-VT7">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lRi-LA-hoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,10 +251,10 @@
                         <viewControllerLayoutGuide type="bottom" id="srt-sv-bk0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Qu-DO-uzH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HcQ-w6-Y6z">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HcQ-w6-Y6z">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="lz0-1U-q5o"/>
@@ -271,6 +272,7 @@
                     <tabBarItem key="tabBarItem" title="" image="Cut-1" id="f6S-Zg-aLc">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7jl-tM-Y4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -285,10 +287,10 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n9q-wK-LKH">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9q-wK-LKH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="RcL-VF-SzA"/>
@@ -306,6 +308,7 @@
                     <tabBarItem key="tabBarItem" title="" image="List-2" id="cPa-gy-q4n">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                     </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -337,14 +340,11 @@
                                     <segue destination="1Gh-nR-UdD" kind="show" id="FcC-Zw-Qc0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Logo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVP-JR-6aD">
-                                <rect key="frame" x="138" y="307" width="98" height="53"/>
-                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jolicut2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jn8-gI-trd">
+                                <rect key="frame" x="109" y="229" width="156" height="210"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.16862745100000001" green="0.16078431369999999" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -805,6 +805,7 @@
     <resources>
         <image name="Circled-inscr.png" width="44" height="44"/>
         <image name="Cut-1" width="44" height="44"/>
+        <image name="Jolicut2.png" width="700" height="903"/>
         <image name="List-2" width="44" height="44"/>
         <image name="Map" width="44" height="44"/>
         <image name="Profil" width="44" height="44"/>
@@ -819,8 +820,8 @@
         <image name="tool.png" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="e1w-Sb-ROR"/>
         <segue reference="1IF-Qy-m9t"/>
+        <segue reference="FcC-Zw-Qc0"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
