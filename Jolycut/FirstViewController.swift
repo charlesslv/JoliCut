@@ -23,21 +23,17 @@ class FirstViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
         self.MapView.showsUserLocation = true
         
         self.MapView.removeAnnotations(self.MapView.annotations)
-        
-        
-        
-        
-        
+    
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
         
+        /* geolocalisation Charles, a faire; $_SESSION et recuperer la position de l'utilisateur... 'soupir'*/
+        //let location = self.locationManager.location
         
-        let location = self.locationManager.location
-        
-        var latitude: Double = location!.coordinate.latitude
-        let longitude: Double = location!.coordinate.longitude
+        //var latitude: Double = location!.coordinate.latitude
+        //let longitude: Double = location!.coordinate.longitude
     }
     
     override func didReceiveMemoryWarning()

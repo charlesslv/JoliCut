@@ -15,7 +15,6 @@ struct MyVariables {
 class ViewController: UIViewController {
     
     
-    @IBOutlet var button_entity: UIButton!
     @IBOutlet var login: UITextField!
     @IBOutlet var password: UITextField!
     @IBAction func button(sender: AnyObject) {
@@ -28,6 +27,9 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func returnButton(sender: AnyObject) {
     }
     
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject!) -> Bool {
@@ -58,22 +60,23 @@ class ViewController: UIViewController {
             
             let task = session.dataTaskWithRequest(request) {
                 (let data, let response, let error) in
-                let httpResponse = response as? NSHTTPURLResponse
-                MyVariables.ErrorCode = httpResponse!.statusCode
-                print("Fin de recherche http :")
-                print(MyVariables.ErrorCode)
-                guard let _:NSData = data, let _:NSURLResponse = response  where error == nil else {
-                    print("error")
-                    return
+                if (nil != response as? NSHTTPURLResponse) {
+                    let httpResponse = response as? NSHTTPURLResponse
+                    MyVariables.ErrorCode = httpResponse!.statusCode
+                    print("Fin de recherche http :")
+                    print(MyVariables.ErrorCode)
+                    guard let _:NSData = data, let _:NSURLResponse = response  where error == nil else {
+                        print("error")
+                        return
+                    }
+                }
+                else {
+                    MyVariables.ErrorCode = 8
                 }
             }
-            while (MyVariables.ErrorCode != 200 || MyVariables.ErrorCode != 404)
+            while (MyVariables.ErrorCode != 200 || MyVariables.ErrorCode != 404 || MyVariables.ErrorCode != 8)
             {
-                print("Before task.resume")
-                print(MyVariables.ErrorCode)
                 task.resume()
-                print("After task.resume")
-                print(MyVariables.ErrorCode)
                 if (MyVariables.ErrorCode == 200)
                 {
                     MyVariables.ErrorCode = 0
@@ -84,6 +87,15 @@ class ViewController: UIViewController {
                     MyVariables.ErrorCode = 0
                     let myAlert = UIAlertController(title: "Error", message: "Incorrect credentials", preferredStyle: UIAlertControllerStyle.Alert)
                     let dismiss = UIAlertAction(title: "Return", style: UIAlertActionStyle.Default){(ACTION) in print("Wrong login");}
+                    myAlert.addAction(dismiss)
+                    self.presentViewController(myAlert, animated: true, completion: nil)
+                    return false
+                }
+                else if (MyVariables.ErrorCode == 8)
+                {
+                    MyVariables.ErrorCode = 0
+                    let myAlert = UIAlertController(title: "Error", message: "Can't connect to server", preferredStyle: UIAlertControllerStyle.Alert)
+                    let dismiss = UIAlertAction(title: "Return", style: UIAlertActionStyle.Default){(ACTION) in print("Server down ?");}
                     myAlert.addAction(dismiss)
                     self.presentViewController(myAlert, animated: true, completion: nil)
                     return false
