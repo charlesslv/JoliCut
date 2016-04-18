@@ -27,6 +27,11 @@
             <string>Comfortaa-Bold</string>
             <string>Comfortaa-Bold</string>
             <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
+            <string>Comfortaa-Bold</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -39,13 +44,13 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MpR-eX-7xq">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MpR-eX-7xq">
                                 <rect key="frame" x="0.0" y="22" width="375" height="596"/>
                             </mapView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8SX-K9-f4q">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8SX-K9-f4q">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="iZc-xJ-pJ9"/>
@@ -76,6 +81,44 @@
             <point key="canvasLocation" x="1345.5" y="-348.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="lTj-c8-cdx">
+            <objects>
+                <viewController id="be1-Ia-pqO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bd4-sG-gYx"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ry-Rp-5It"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lcn-hl-g10">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gkt-mb-Pdv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1949.5" y="1850.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1nL-Oe-Auh">
+            <objects>
+                <viewController id="W7h-Sc-i8v" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CIM-Tb-F8R"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gfi-39-VYm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WmM-DP-LoQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yiJ-fl-PKo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1949.5" y="2584.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="aaj-bA-cQH">
             <objects>
                 <viewController id="N7I-rc-diu" sceneMemberID="viewController">
@@ -84,16 +127,85 @@
                         <viewControllerLayoutGuide type="bottom" id="Ttv-nu-ihj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hQz-ZS-O2x">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVG-8s-SNt">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gVG-8s-SNt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="n0Q-KX-xp3"/>
                                 </constraints>
                                 <color key="barTintColor" red="0.16862745098039217" green="0.16078431372549018" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zIr-SE-ftB">
+                                <rect key="frame" x="133" y="28" width="109" height="91"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8w-f0-THU">
+                                <rect key="frame" x="133" y="127" width="109" height="30"/>
+                                <color key="backgroundColor" red="0.91764705879999997" green="0.68235294120000001" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
+                                <state key="normal" title="Load photo">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hy-5x-fiK">
+                                <rect key="frame" x="20" y="194" width="335" height="30"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
+                                <state key="normal" title="Mes Informations">
+                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="be1-Ia-pqO" kind="show" id="HbL-Kd-Jjp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnp-nj-Y7u">
+                                <rect key="frame" x="20" y="232" width="335" height="30"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
+                                <state key="normal" title="Modes de versement">
+                                    <color key="titleColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="W7h-Sc-i8v" kind="show" id="ZzW-cO-vz2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dql-3A-ugD">
+                                <rect key="frame" x="20" y="270" width="335" height="30"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
+                                <state key="normal" title="Mes factures">
+                                    <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sdw-cy-f02" kind="show" id="fEa-Wm-QKR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUX-P1-w7i">
+                                <rect key="frame" x="20" y="308" width="335" height="30"/>
+                                <fontDescription key="fontDescription" name="Comfortaa-Bold" family="Comfortaa" pointSize="15"/>
+                                <state key="normal" title="Déconnexion">
+                                    <color key="titleColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="KDf-UG-Hsk">
+                                <rect key="frame" x="336" y="199" width="19" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="FGQ-NV-5HN">
+                                <rect key="frame" x="336" y="237" width="19" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="IgR-A6-B8y">
+                                <rect key="frame" x="336" y="275" width="19" height="20"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -111,6 +223,25 @@
             <point key="canvasLocation" x="1345.5" y="2146.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="tkv-Tj-MB8">
+            <objects>
+                <viewController id="sdw-cy-f02" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H5w-wg-oSZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y7U-7i-vg6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KzX-u9-Oz1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPv-fE-4Bg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2409.5" y="2146.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="MmY-zC-CHE">
             <objects>
                 <viewController id="MQb-a0-rC9" sceneMemberID="viewController">
@@ -119,10 +250,10 @@
                         <viewControllerLayoutGuide type="bottom" id="srt-sv-bk0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Qu-DO-uzH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HcQ-w6-Y6z">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HcQ-w6-Y6z">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="lz0-1U-q5o"/>
@@ -154,10 +285,10 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9q-wK-LKH">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n9q-wK-LKH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="RcL-VF-SzA"/>
@@ -678,6 +809,7 @@
         <image name="Map" width="44" height="44"/>
         <image name="Profil" width="44" height="44"/>
         <image name="arrows.png" width="44" height="44"/>
+        <image name="back.png" width="54" height="54"/>
         <image name="circle.png" width="44" height="44"/>
         <image name="cross2.png" width="44" height="44"/>
         <image name="facture" width="44" height="44"/>
